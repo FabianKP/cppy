@@ -1,2 +1,2 @@
-/cpp/cppy/dist/
-/cpp/cppy/build/
+cmake-build-debug/
+Eigen/
