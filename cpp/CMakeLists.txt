@@ -4,5 +4,4 @@ project(main)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(main main.cpp)
-add_executable(invert_matrix invert_matrix.cpp)
 include_directories(Eigen)

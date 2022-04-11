@@ -1,21 +1,11 @@
 #include <iostream>
 #include <Dense>
 
-using Eigen::MatrixXd;
-using namespace std;
+#include "invert_matrix.h"
 
 using Eigen::MatrixXd;
 using Eigen::VectorXd;
 using namespace std;
-
-VectorXd invert_matrix(MatrixXd& A, VectorXd& b) {
-    /*
-     * Solves the linear system A x = b for x using Eigen's PartialPivLU decomposition.
-     */
-    // Solve linear system with HouseholderQR-decomposition.
-    VectorXd x = A.householderQr().solve(b);
-    return x;
-}
 
 
 int main() {
