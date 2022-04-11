@@ -5,10 +5,12 @@
 #ifndef INVERT_MATRIX_H
 #define INVERT_MATRIX_H
 
+#include <Eigen/Dense>
+
 using Eigen::MatrixXd;
 using Eigen::VectorXd;
 
-VectorXd invert_matrix(MatrixXd& A, VectorXd& b) {
+VectorXd invertMatrix(MatrixXd& A, VectorXd& b) {
     /*
      * Solves the linear system A x = b for x using Eigen's PartialPivLU decomposition.
      */

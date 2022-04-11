@@ -1,7 +1,7 @@
 #include <iostream>
-#include <Dense>
+#include <Eigen/Dense>
 
-#include "invert_matrix.h"
+#include "invertMatrix.h"
 
 using Eigen::MatrixXd;
 using Eigen::VectorXd;
@@ -13,7 +13,7 @@ int main() {
     MatrixXd A = MatrixXd::Random(3,3);
     VectorXd x = VectorXd::Random(3,1);
     VectorXd b = A * x;
-    VectorXd xTilde = invert_matrix(A, b);
+    VectorXd xTilde = invertMatrix(A, b);
 
     // Compute error = ||x_tilde - x||.
     VectorXd errorVector = xTilde - x;
