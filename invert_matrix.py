@@ -1,7 +1,7 @@
 
 import numpy as np
 
-from invertMatrix import invert_matrix as invertMatrix
+from invertMatrix import invertMatrix
 
 
 def invert_matrix(a: np.ndarray, b: np.ndarray):

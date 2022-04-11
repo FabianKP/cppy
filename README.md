@@ -7,4 +7,4 @@ This is just a toy project for learning how to interface C++ from python using
 This project answers a very simple question that always interested me: How does using numpy compare against 
 state-of-the-art C++-libraries, such as [Eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page).
 
-To test this, I simply compares numpy and Eigen for solving medium-scale linear systems.
+To test this, I simply compare numpy and Eigen for solving medium-scale linear systems.
