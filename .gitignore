@@ -1,2 +1,4 @@
 cmake-build-debug/
 Eigen/
+.idea
+__pycache__
